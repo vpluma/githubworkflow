@@ -2,7 +2,7 @@
 Git & GitHub Workflow
 ======================
 
-GIT BASH (cd to androidstudioprojects/project_folder)<br>
+Use GIT BASH (cd to androidstudioprojects/project_folder)<br>
 git init<br>
 git config --global user.name "Firstname Lastname"<br>
 git config --global user.email "gmail_username@gmail.com"<br>
