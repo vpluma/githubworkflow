@@ -1,7 +1,3 @@
-# GitHub Workflow
-Steps to upload to a GitHub Repo
------------------------------------
-
 ======================
 Git & GitHub Workflow
 ======================
