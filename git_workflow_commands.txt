@@ -1,0 +1,23 @@
+GIT BASH (cd to androidstudioprojects/project_folder)
+git init
+git config --global user.name "Vinson Pluma"
+git config --global user.email "vpluma@nlmusd.org"
+git add * -f
+git commit -m "first upload"
+git remote add origin https://github.com/vpluma/test.git
+git pull origin master
+git add * -f
+git commit -m "added readme file"
+git push origin master
+GIT username:  vpluma
+GIT password:  will be blank when typed
+
+
+
+
+
+
+
+
+
+
