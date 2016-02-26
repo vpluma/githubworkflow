@@ -1,4 +1,4 @@
-GIT BASH (cd to androidstudioprojects/project_folder)
+Use GIT BASH (cd to androidstudioprojects/project_folder)
 git init
 git config --global user.name "Vinson Pluma"
 git config --global user.email "vpluma@nlmusd.org"
