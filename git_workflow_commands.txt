@@ -1,16 +1,16 @@
 Use GIT BASH (cd to androidstudioprojects/project_folder)
 git init
-git config --global user.name "Firstname Lastname"
-git config --global user.email "email_username@gmail.com"
+git config --replace-all user.name "Firstname Lastname"
+git config --replace-all user.email "email_username@gmail.com"
 git add * -f
-git commit -m "first upload"
-git remote add origin https://github.com/github_username/project_repo.git
+git commit -m "first upload comment"
+git remote add origin https://github.com/github_username/project_repo_name.git
 git pull origin master
 git add * -f
-git commit -m "added readme file"
+git commit -m "added readme file comment"
 git push origin master
-GIT username:  vpluma
-GIT password:  will be blank when typed
+GitHub username:  vpluma
+GitHub password:  will remain blank while you type (for extra security)
 
 
 
