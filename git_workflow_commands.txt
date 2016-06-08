@@ -1,4 +1,5 @@
-Use GIT BASH (cd to yourPersonalLocalDirectory/projectDirectory)
+Use GIT BASH (in Windows) or Terminal (in Linux/Unix)
+cd to yourPersonalLocalDirectory/projectDirectory
 git init
 git config --replace-all user.name "Firstname Lastname"
 git config --replace-all user.email "email_username@gmail.com"
