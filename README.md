@@ -2,7 +2,8 @@
 Git & GitHub Workflow
 ======================
 
-Use GIT BASH (cd to yourPersonalLocalDirectory/yourProjectFolder<br>
+Use GIT BASH (in Windows) or Terminal (in Linux/Unix)<br>
+cd to yourPersonalLocalDirectory/yourProjectFolder<br>
 git init<br>
 git config --replace-all user.name "Firstname Lastname"<br>
 git config --replace-all user.email "gmail_username@gmail.com"<br>
