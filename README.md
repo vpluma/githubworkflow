@@ -1,6 +1,6 @@
-======================
+
 Git & GitHub Workflow
-======================
+---
 
 Use GIT BASH (in Windows) or Terminal (in Linux/Unix)<br>
 cd to yourPersonalLocalDirectory/yourProjectFolder<br>
