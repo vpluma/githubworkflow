@@ -1,16 +1,12 @@
 EXISTING REPO
 -------------
 cd /path/to/yourPersonalLocalDirectory/yourProjectFolder
-
 git init
 git config user.name "Firstname Lastname"
 git config user.email "gmail_username@gmail.com"
-
 git add .
 git commit -m "Initial commit"
-
 git branch -M main
 git remote add origin https://github.com/username/project_repo_name.git
-
 git pull origin main --allow-unrelated-histories
 git push -u origin main
