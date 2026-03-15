@@ -1,27 +1,16 @@
 EXISTING REPO
 -------------
-# 1) Go to your project folder
 cd /path/to/yourPersonalLocalDirectory/yourProjectFolder
 
-# 2) Initialize Git
 git init
-
-# 3) Set your identity for this repo
 git config user.name "Firstname Lastname"
 git config user.email "gmail_username@gmail.com"
 
-# 4) Add your files and commit
 git add .
 git commit -m "Initial commit"
 
-# 5) Rename branch to main
 git branch -M main
-
-# 6) Add remote
 git remote add origin https://github.com/username/project_repo_name.git
 
-# 7) Pull remote content first if the GitHub repo is not empty
 git pull origin main --allow-unrelated-histories
-
-# 8) Push your code
 git push -u origin main
