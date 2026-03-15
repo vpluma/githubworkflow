@@ -1,5 +1,5 @@
-CREATE NEW GITHUB REPO
-----------------------
+EXISTING REPO
+-------------
 # 1) Go to your project folder
 cd /path/to/yourPersonalLocalDirectory/yourProjectFolder
 
@@ -10,20 +10,18 @@ git init
 git config user.name "Firstname Lastname"
 git config user.email "gmail_username@gmail.com"
 
-# 4) Check status
-git status
-
-# 5) Add everything in the current project folder
+# 4) Add your files and commit
 git add .
-
-# 6) Make your first commit
 git commit -m "Initial commit"
 
-# 7) Rename the default branch to main
+# 5) Rename branch to main
 git branch -M main
 
-# 8) Add your GitHub remote
+# 6) Add remote
 git remote add origin https://github.com/username/project_repo_name.git
 
-# 9) Push to GitHub
+# 7) Pull remote content first if the GitHub repo is not empty
+git pull origin main --allow-unrelated-histories
+
+# 8) Push your code
 git push -u origin main
