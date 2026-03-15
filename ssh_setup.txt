@@ -1,0 +1,22 @@
+FULL SSH SETUP WORKFLOW
+-----------------------
+Generate New SSH Key Pair
+ssh-keygen -t ed25519 -C "you@email.com"
+
+Start SSH-Agent
+eval "$(ssh-agent -s)"
+
+Add Key to SSH-Agent
+ssh-add ~/.ssh/id_ed25519
+
+View and Copy SSH Public Key
+cat ~/.ssh/id_ed25519.pub
+
+Add SSH Public Key to GitHub
+https://github.com/settings/keys
+
+Authenticate to GitHub Using SSH Keys
+ssh -T git@github.com
+
+Download/Clone a GitHub project
+git clone git@github.com:username/project.git
